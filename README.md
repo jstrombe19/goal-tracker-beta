@@ -1,9 +1,10 @@
 # README
 
 ## Table of Contents
-* [General info] (#general-info)
-* [Technologies] (#technologies)
-* [Setup] (#setup)
+
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Setup](#setup)
 
 ## General info
 
@@ -21,19 +22,21 @@ place on my phone in the form of notes and calendar events. This disjointed
 approach was the impetus for me to bring this project to life.
 
 This app requires Ruby 2.6.5, as specified in its gemfile. It is hosted on
-Heroku at https://git.heroku.com/goal-tracker-api-beta.git; however, hardlining
+Heroku at https://goal-tracker-api-beta.herokuapp.com/; however, hardlining
 to the address will not yield any information, thanks to the JWT authorization
 requirements.
 
 ## Technologies
+
 This project is created with:
 
-* Ruby version: 2.6.5
-* Rails version: 5.2.3
-* JWT version: 2.2.1
-* BCrypt version: 3.1.13
+- Ruby version: 2.6.5
+- Rails version: 5.2.3
+- JWT version: 2.2.1
+- BCrypt version: 3.1.13
 
 ## Setup
+
 This project can be run locally using rails:
 
 ```
@@ -44,28 +47,29 @@ $ rails s
 
 ```
 
-
 Things you may want to cover:
 
-@these *overview*
+@these _overview_
+
 #
+
 ##
 
-* System dependencies
+- System dependencies
 
-* Configuration
+- Configuration
 
-* Database creation
+- Database creation
 
 The database for this app is PostGres, in the development, production, and test
 environments. I am running PostGresQL 11.
 
-* Database initialization
+- Database initialization
 
-* How to run the test suite
+- How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+- Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+- Deployment instructions
 
-* ...
+- ...
